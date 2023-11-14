@@ -1,0 +1,77 @@
+.vectorIcon {
+  position: relative;
+  width: 14.4px;
+  height: 13px;
+}
+.views {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnCsViews {
+  border-radius: var(--corner);
+  background-color: var(--blue-light);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 110px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-xs);
+  color: var(--white);
+}
+.vectorIcon1 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.btnCsAdd {
+  border-radius: var(--corner);
+  width: 110px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.vectorIcon2 {
+  position: relative;
+  width: 14.5px;
+  height: 17px;
+}
+.btnCsViewsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.topbarCsChild {
+  flex: 1;
+}
+.topbarCs {
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--blue-light);
+  font-family: var(--font-avenir);
+}

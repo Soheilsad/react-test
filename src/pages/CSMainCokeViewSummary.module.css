@@ -1,0 +1,119 @@
+.btnCsBackProfileIcon {
+  position: relative;
+  width: 24.3px;
+  height: 24.5px;
+}
+.summary {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.carrierName {
+  align-self: stretch;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.shorehIsReaching {
+  margin-block-start: 0;
+  margin-block-end: 21px;
+}
+.theDataMigration {
+  margin-bottom: 0;
+}
+.theDataMigrationWillBeMan {
+  margin: 0;
+  padding-left: var(--padding-lgi);
+}
+.textContent {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 150%;
+  font-weight: 800;
+}
+.textContentWrapper {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0;
+}
+.carrierNameParent,
+.frameContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-xs);
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.carrierNameParent {
+  background-color: var(--bkg-blue);
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.carrierNameParent,
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.frameParent {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelectInner {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--bkg-gray);
+  flex-direction: row;
+}
+.comparisonsAutoSelect,
+.comparisonsAutoSelectInner,
+.csMainCokeViewSummary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+}
+.csMainCokeViewSummary {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

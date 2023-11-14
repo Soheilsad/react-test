@@ -1,0 +1,35 @@
+.vectorIcon {
+  position: relative;
+  width: 28.7px;
+  height: 20px;
+}
+.filter,
+.filter1 {
+  display: flex;
+  align-items: center;
+}
+.filter1 {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  width: 207px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.filter {
+  border-radius: var(--corner);
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+  width: 128px;
+  height: 54px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--font-gray);
+  font-family: var(--font-avenir);
+}

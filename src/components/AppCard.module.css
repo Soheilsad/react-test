@@ -1,0 +1,38 @@
+.vectorIcon {
+  position: relative;
+  width: 36.6px;
+  height: 40px;
+}
+.dataManager {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 900;
+}
+.cardDataMngr {
+  border-radius: var(--corner);
+  background-color: var(--white);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  width: 160px;
+  height: 110px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+  text-align: center;
+  font-size: var(--em-bold-size);
+  color: var(--font-gray);
+  font-family: var(--font-avenir);
+  transition: 200ms;
+}
+
+.cardDataMngr:hover{
+  color: rgb(0, 179, 255);
+  background-color: aliceblue;
+  transition: 200ms;
+}

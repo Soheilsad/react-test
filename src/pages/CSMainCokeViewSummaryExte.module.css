@@ -1,0 +1,312 @@
+.btnCsBackProfileIcon {
+  position: relative;
+  width: 24.3px;
+  height: 24.5px;
+}
+.thread {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.carrierName {
+  align-self: stretch;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.subjectOfEmail {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+}
+.emailViewSubject {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailRowLabelImportant {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+.inbox {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 500;
+}
+.closeIcon {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.categoryBadge1,
+.categoryBadge2 {
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-9xs);
+  gap: var(--gap-9xs);
+}
+.categoryBadge1 {
+  background-color: var(--color-gray-100);
+  display: flex;
+}
+.categoryBadge2 {
+  background-color: var(--categories-promotions-badge-1);
+  display: none;
+  color: var(--categories-promotions-badge-2);
+}
+.categoryBadge,
+.layoutSubject {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.categoryBadge {
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--label-size);
+  color: var(--primary-specialty-000-60);
+}
+.layoutSubject {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.iconPrint {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconPrintParent,
+.subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-mid);
+}
+.subject {
+  align-self: stretch;
+  background-color: var(--white);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-678xl);
+}
+.avatarIcon {
+  border-radius: var(--br-21xl);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatarIcon,
+.recipientName {
+  position: relative;
+}
+.emailViewFromEmail,
+.emailViewFromName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailViewFromName {
+  color: var(--primary-202124);
+}
+.emailViewFromEmail {
+  font-size: var(--label-size);
+}
+.unsubscribe {
+  position: relative;
+  font-size: var(--font-size-xs-2);
+  text-decoration: underline;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 500;
+  display: none;
+}
+.emailViewFromNameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.to {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 500;
+}
+.arrowIcon,
+.emailViewToTo {
+  position: relative;
+  width: 11px;
+  height: 14px;
+}
+.arrowIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emailViewTo,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.emailViewTo {
+  flex-direction: row;
+  font-size: var(--label-size);
+}
+.frameGroup {
+  flex-direction: column;
+}
+.emailViewTimeStamp,
+.layoutToFrom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.layoutToFrom {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  z-index: 0;
+}
+.emailViewTimeStamp {
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.emailRowStar,
+.moreIcon {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.moreIcon {
+  border-radius: var(--br-xl);
+  height: 32px;
+}
+.timestamp {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 26px);
+  right: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-mid);
+  z-index: 1;
+  font-size: var(--label-size);
+  color: var(--primary-specialty-000-60);
+}
+.frameContainer,
+.recipientTimestamp,
+.subjectParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.recipientTimestamp {
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  font-size: var(--em-bold-size);
+  color: var(--primary-000-54);
+}
+.frameContainer,
+.subjectParent {
+  flex: 1;
+}
+.subjectParent {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0;
+  gap: var(--gap-11xs);
+}
+.frameContainer {
+  flex-direction: row;
+  font-size: var(--h2-1375em-regular-size);
+  color: var(--primary-202124);
+  font-family: var(--h2-1375em-regular);
+}
+.carrierNameParent {
+  background-color: var(--bkg-blue);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.carrierNameParent,
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.frameParent {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelectInner {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--bkg-gray);
+  flex-direction: row;
+}
+.comparisonsAutoSelect,
+.comparisonsAutoSelectInner,
+.csMainCokeViewSummaryExte {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+}
+.csMainCokeViewSummaryExte {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

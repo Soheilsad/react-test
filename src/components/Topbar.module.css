@@ -1,0 +1,111 @@
+.clientSuccess {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.clientSuccessWrapper {
+  flex: 1;
+  height: 27px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.searchBar,
+.searchForApps {
+  display: flex;
+  align-items: center;
+}
+.searchForApps {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  height: 64px;
+}
+.searchBar {
+  border-radius: var(--corner);
+  background-color: var(--white);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--bkg-gray-dark);
+  box-sizing: border-box;
+  width: 483px;
+  height: 54px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-7xs);
+  font-size: var(--body-size);
+  color: var(--font-gray);
+}
+.vectorIcon1 {
+  position: relative;
+  width: 25.8px;
+  height: 28px;
+}
+.btnNotifications {
+  border-radius: var(--corner);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  position: relative;
+  width: 26.9px;
+  height: 28px;
+}
+.vectorIcon3 {
+  width: 28px;
+}
+.btnHelp {
+  border-radius: var(--corner);
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.groupIcon {
+  position: relative;
+  width: 21.8px;
+  height: 28px;
+}
+.btnNotificationsParent,
+.property1clientSuccess {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnNotificationsParent {
+  flex: 1;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}
+.property1clientSuccess {
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

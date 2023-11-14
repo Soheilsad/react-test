@@ -1,0 +1,112 @@
+.groupIcon {
+  position: relative;
+  width: 36px;
+  height: 40px;
+}
+.groupWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.insureco {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.carrierName,
+.carrierNameInner,
+.insurecoParent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.insurecoParent {
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  gap: var(--gap-5xs);
+}
+.carrierName,
+.carrierNameInner {
+  justify-content: flex-start;
+}
+.carrierName {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-5xs);
+}
+.detailsChild {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.details {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-5xs);
+}
+.months,
+.period {
+  display: flex;
+  align-items: center;
+}
+.months {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+  width: 206px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.period {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-11xl);
+}
+.groupIcon1 {
+  position: relative;
+  width: 32px;
+  height: 40px;
+}
+.carrierNameParent,
+.docs {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.docs {
+  flex: 1;
+  align-items: center;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-3xs);
+  text-align: center;
+}
+.carrierNameParent {
+  border-bottom: 1px solid var(--font-gray);
+  box-sizing: border-box;
+  height: 93px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--font-gray);
+  font-family: var(--h2-1375em-regular);
+}

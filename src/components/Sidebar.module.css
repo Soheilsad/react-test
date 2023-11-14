@@ -1,0 +1,98 @@
+.p {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.logo {
+  border-radius: var(--corner);
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-33xl);
+  color: var(--black);
+  font-family: var(--font-shippori-mincho);
+}
+.vectorIcon {
+  position: relative;
+  width: 27.2px;
+  height: 34px;
+}
+.comparisons {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 900;
+}
+.btnComps {
+  border-radius: var(--corner);
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+}
+.vectorIcon1 {
+  position: relative;
+  width: 23.8px;
+  height: 28px;
+}
+.btnWorkflows {
+  border-radius: var(--corner);
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+}
+.vectorIcon2 {
+  position: relative;
+  width: 28.6px;
+  height: 30px;
+}
+.clientSuccess {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 900;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  position: relative;
+  width: 25.6px;
+  height: 28px;
+}
+.vectorIcon4 {
+  width: 28px;
+}
+.sidebar {
+  background-color: var(--white);
+  height: 924px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--font-size-4xs);
+  color: var(--font-gray);
+  font-family: var(--font-avenir);
+}

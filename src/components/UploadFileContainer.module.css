@@ -1,0 +1,65 @@
+.antDesigncloudUploadOutlinIcon {
+  position: relative;
+  width: 85.4px;
+  height: 85.4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dragAndDrop,
+.or {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 344.1px;
+  height: 47.7px;
+  flex-shrink: 0;
+}
+.or {
+  width: 37.7px;
+}
+.orWrapper {
+  width: 329.1px;
+  height: 60.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25.118789672851562px;
+  box-sizing: border-box;
+  color: var(--color-darkslategray-100);
+}
+.selectFile {
+  position: relative;
+  display: inline-block;
+  width: 175.8px;
+  height: 47.7px;
+  flex-shrink: 0;
+}
+.antDesigncloudUploadOutlinParent,
+.selectFileWrapper {
+  border-radius: var(--corner);
+  width: 339.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25.118789672851562px;
+  box-sizing: border-box;
+  font-size: var(--font-size-11xl);
+  color: var(--blue-light);
+  font-family: var(--h2-1375em-regular);
+}
+.antDesigncloudUploadOutlinParent {
+  background-color: var(--white);
+  width: 35%;
+  height: 491px;
+  margin-left: 20%;
+  margin-top: 200px;
+  flex-direction: column;
+  padding: 165.7840118408203px 474.7451171875px;
+  gap: 15.07px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

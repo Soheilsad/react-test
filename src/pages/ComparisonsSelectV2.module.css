@@ -1,0 +1,58 @@
+.frameGroup,
+.menuCompOptnsWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuCompOptnsWrapper {
+  padding: var(--padding-9xs) 0;
+}
+.frameGroup {
+  height: 241px;
+  flex-shrink: 0;
+  gap: var(--gap-base);
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+}
+.frameWrapper {
+  height: 241px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  background-color: var(--bkg-gray-dark);
+  padding: var(--padding-9xs) var(--padding-41xl);
+  gap: var(--gap-base);
+}
+.comparisonsAutoSelect,
+.comparisonsSelectV2,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+}
+.comparisonsSelectV2 {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+}

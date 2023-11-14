@@ -1,0 +1,119 @@
+.btnWkfwBackCoiSetupIcon {
+  position: relative;
+  width: 32.5px;
+  height: 28.5px;
+}
+.cyberRiskPolicy,
+.menuTitle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.cyberRiskPolicy {
+  position: relative;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 19px;
+}
+.menuTitle {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.currentPage,
+.pagination {
+  display: flex;
+  flex-direction: row;
+}
+.currentPage {
+  border-radius: var(--br-12xs);
+  background-color: var(--color-gray-200);
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-6xs);
+}
+.pagination {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.fileScopeChild {
+  position: relative;
+  background-color: var(--color-dimgray-100);
+  width: 1px;
+  height: 16px;
+}
+.icons {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.actions,
+.fileScope,
+.zoom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.actions,
+.fileScope {
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}
+.actions {
+  flex: 1;
+}
+.review {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnCoiReview,
+.btnCoiReviewParent,
+.toolBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btnCoiReview {
+  border-radius: var(--corner);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 104px;
+  height: 38px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-xs);
+}
+.btnCoiReviewParent,
+.toolBar {
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--blue-light);
+  font-family: var(--font-avenir);
+}
+.toolBar {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  gap: var(--gap-13xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--em-bold-size);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}

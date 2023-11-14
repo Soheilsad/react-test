@@ -1,0 +1,105 @@
+.censoredTemplate1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 976px;
+  height: 1333px;
+  object-fit: cover;
+}
+.theCocaCola {
+  margin: 0;
+}
+.theCocaColaContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 14px;
+  font-weight: 800;
+}
+.insurecoInsuranceRiskManageWrapper,
+.theCocaColaCompany88HarboWrapper {
+  position: absolute;
+  top: 121.6px;
+  left: 51.6px;
+  border-radius: var(--corner);
+  background-color: var(--white);
+  width: 310.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.insurecoInsuranceRiskManageWrapper {
+  top: 1097.2px;
+}
+.insurecoInsuranceRiskManageContainer {
+  top: 1202.6px;
+  left: 150.6px;
+  width: 310.9px;
+  height: 23.4px;
+  font-size: var(--font-size-5xs);
+}
+.insurecoInsuranceRiskManageContainer,
+.lucasMUrbisaiaWrapper,
+.paintingCarpentryDrywalCWrapper,
+.theCocaColaCompany88HarboContainer {
+  position: absolute;
+  border-radius: var(--corner);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.lucasMUrbisaiaWrapper {
+  top: 1227.5px;
+  left: 196.6px;
+  width: 121.3px;
+  height: 23.4px;
+  font-size: var(--font-size-5xs);
+}
+.paintingCarpentryDrywalCWrapper,
+.theCocaColaCompany88HarboContainer {
+  top: 121.6px;
+  left: 513.1px;
+  width: 310.9px;
+}
+.paintingCarpentryDrywalCWrapper {
+  top: 227px;
+  left: 51.6px;
+  width: 850.5px;
+}
+.censoredTemplate1Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 976px;
+  height: 1333px;
+}
+.coiFinalizedInner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 0;
+}
+.coiFinalized {
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  width: 100%;
+  height: 1431px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

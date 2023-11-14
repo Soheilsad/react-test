@@ -1,0 +1,75 @@
+.cyberPolicyQuestion {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.carrierName {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.checkPolicyCoverage {
+  align-self: stretch;
+  font-weight: 500;
+}
+.checkPolicyCoverage,
+.ourItTeam,
+.view {
+  position: relative;
+  letter-spacing: 0.25px;
+}
+.ourItTeam {
+  align-self: stretch;
+}
+.view {
+  font-weight: 500;
+}
+.btnCsProfileView {
+  border-radius: var(--corner);
+  width: 88px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.carrierNameParent,
+.docs {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+}
+.docs {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--blue-light);
+  font-family: var(--font-avenir);
+}
+.carrierNameParent {
+  border-top: 1px solid var(--black);
+  box-sizing: border-box;
+  height: 117px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--body-size);
+  color: var(--font-gray);
+  font-family: var(--h2-1375em-regular);
+}

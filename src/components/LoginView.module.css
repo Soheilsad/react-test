@@ -1,0 +1,169 @@
+.p {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.logo {
+  border-radius: var(--corner);
+  width: 156px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-33xl);
+  font-family: var(--font-shippori-mincho);
+}
+.logIn,
+.pleaseFillIn {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.logIn {
+  font-size: var(--font-size-17xl);
+}
+.pleaseFillIn {
+  color: var(--font-gray);
+}
+.selectedShape {
+  position: absolute;
+  width: 101.6%;
+  top: -3px;
+  right: -0.8%;
+  left: -0.8%;
+  border-radius: var(--br-9xs);
+  border: 3px solid var(--black-20);
+  box-sizing: border-box;
+  height: 54px;
+  display: none;
+}
+.exclamationIcon {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.message1 {
+  position: relative;
+  line-height: 120%;
+}
+.message {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.emailMailIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconLeft {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.indicator {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-12xs);
+  background-color: var(--black1);
+  width: 1px;
+  display: none;
+}
+.emailAddress {
+  position: relative;
+  line-height: 140%;
+}
+.indicatorRight,
+.spacer {
+  position: relative;
+  border-radius: var(--br-12xs);
+  height: 22px;
+}
+.indicatorRight {
+  background-color: var(--black1);
+  width: 1px;
+  display: none;
+}
+.spacer {
+  flex: 1;
+}
+.arrowDownIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  display: none;
+}
+.field {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--black-20);
+  box-sizing: border-box;
+  height: 48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-base);
+  font-size: var(--body-size);
+}
+.inputField {
+  position: relative;
+  background-color: var(--white);
+  width: 375px;
+  height: 48px;
+  text-align: left;
+  font-size: var(--label-size);
+  color: var(--black-60);
+  font-family: var(--body);
+}
+.submit {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnLogin,
+.logoParent {
+  border-radius: var(--corner);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnLogin {
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 132px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  color: var(--blue-light);
+}
+.logoParent {
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-17xl);
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

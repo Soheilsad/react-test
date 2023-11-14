@@ -1,0 +1,45 @@
+.companies {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnDataMgmCompanies {
+  border: 2px solid var(--blue-light);
+  width: 132px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.btnDataMgmCarriers,
+.btnDataMgmCompanies,
+.menuDataMgmtOptns {
+  border-radius: var(--corner);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+}
+.btnDataMgmCarriers {
+  border: 2px solid var(--blue-light);
+  width: 132px;
+  height: 48px;
+  flex-shrink: 0;
+  display: none;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.menuDataMgmtOptns {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--blue-light);
+  font-family: var(--font-avenir);
+  align-self: stretch;
+}

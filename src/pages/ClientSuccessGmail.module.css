@@ -1,0 +1,263 @@
+.connectEmailSource {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.connectEmailSourceWrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper,
+.pleaseSelectBelow {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.frameWrapper {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--black);
+}
+.pleaseSelectBelow {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 34px;
+  font-weight: 500;
+}
+.pleaseSelectBelowASourceFWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+  color: var(--font-gray);
+}
+.outlook {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnCsOutlook {
+  border-radius: var(--corner);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 130px;
+  height: 40px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.btnCsGmail,
+.btnCsOutlook,
+.docs {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnCsGmail {
+  border-radius: var(--corner);
+  background-color: var(--blue-light);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 130px;
+  height: 40px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  color: var(--white);
+}
+.docs {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+}
+.iconLeft,
+.indicator {
+  display: none;
+}
+.indicator {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-12xs);
+  background-color: var(--black1);
+  width: 1px;
+}
+.emailAddress {
+  position: relative;
+  line-height: 140%;
+}
+.indicatorRight,
+.spacer {
+  position: relative;
+  border-radius: var(--br-12xs);
+  height: 22px;
+}
+.indicatorRight {
+  background-color: var(--black1);
+  width: 1px;
+  display: none;
+}
+.spacer {
+  flex: 1;
+}
+.arrowDownIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  display: none;
+}
+.field,
+.selectedShape {
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+}
+.field {
+  background-color: var(--white);
+  border: 1px solid var(--black-20);
+  width: 375px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-base);
+  font-size: var(--body-size);
+  color: var(--black-60);
+  font-family: var(--body);
+}
+.selectedShape {
+  position: absolute;
+  width: 101.6%;
+  top: -3px;
+  right: -0.8%;
+  left: -0.8%;
+  border: 3px solid var(--black-20);
+  height: 54px;
+  display: none;
+}
+.exclamationIcon {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.message1 {
+  position: relative;
+  line-height: 120%;
+}
+.message {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.emailMailIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.field1,
+.iconLeft1 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.iconLeft1 {
+  display: none;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.field1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--black-20);
+  box-sizing: border-box;
+  height: 48px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-base);
+  font-size: var(--body-size);
+}
+.inputField {
+  position: relative;
+  background-color: var(--white);
+  width: 375px;
+  height: 48px;
+  font-size: var(--label-size);
+  color: var(--black-60);
+  font-family: var(--body);
+}
+.btnCsEmailSubmit {
+  border-radius: var(--corner);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 110px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  text-align: center;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--bkg-blue);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-41xl);
+  gap: var(--gap-base);
+}
+.clientSuccessGmail,
+.comparisonsAutoSelect,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+}
+.clientSuccessGmail {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--blue-light);
+  font-family: var(--font-avenir);
+}

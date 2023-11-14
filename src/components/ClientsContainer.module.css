@@ -1,0 +1,100 @@
+.all {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnCsCompanies {
+  flex: 1;
+  border-radius: var(--corner);
+  background-color: var(--bkg-gray-dark);
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.vectorIcon {
+  position: relative;
+  width: 23px;
+  height: 16px;
+}
+.btnCsCompaniesParent,
+.filter {
+  display: flex;
+  flex-direction: row;
+}
+.filter {
+  flex: 1;
+  border-radius: var(--corner);
+  height: 40px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  text-align: left;
+  color: var(--font-gray);
+}
+.btnCsCompaniesParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+}
+.alerts,
+.cocaCola,
+.shorehAghdashloo {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.cocaCola {
+  font-size: var(--font-size-xl);
+}
+.alerts,
+.shorehAghdashloo {
+  color: var(--font-gray);
+}
+.alerts {
+  color: var(--blue-light-hover);
+}
+.btnCsCompany1 {
+  border-left: 4px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 260px;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+  gap: var(--gap-11xs);
+}
+.btnCsCompany1,
+.btnCsCompany2,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.btnCsCompany2 {
+  width: 260px;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--white);
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

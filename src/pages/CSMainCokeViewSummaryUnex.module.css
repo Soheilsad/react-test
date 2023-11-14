@@ -1,0 +1,478 @@
+.vectorIcon {
+  position: relative;
+  width: 14.4px;
+  height: 13px;
+}
+.views {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnCsViews {
+  border-radius: var(--corner);
+  width: 110px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.vectorIcon1,
+.vectorIcon2 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.vectorIcon2 {
+  width: 14.5px;
+  height: 17px;
+}
+.btnCsViewsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.btnCsAssociatedFiles,
+.btnCsProfileSummarize {
+  border-radius: var(--corner);
+  box-sizing: border-box;
+  width: 110px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.btnCsAssociatedFiles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnCsProfileSummarize {
+  background-color: var(--blue-light);
+  border: 2px solid var(--blue-light);
+  color: var(--white);
+}
+.btnCsAssociatedFilesParent,
+.btnCsProfileSummarize,
+.topbarCs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnCsAssociatedFilesParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.topbarCs {
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.btnCsBackProfileIcon {
+  position: relative;
+  width: 24.3px;
+  height: 24.5px;
+}
+.thread {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.csCloseSummaryIcon {
+  position: relative;
+  border-radius: var(--corner);
+  width: 32px;
+  height: 32px;
+}
+.carrierName,
+.summaryParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.summaryParent {
+  width: 270px;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.carrierName {
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+}
+.subjectOfEmail {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+}
+.emailViewSubject {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailRowLabelImportant {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+.inbox {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 500;
+}
+.closeIcon {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.categoryBadge1,
+.categoryBadge2 {
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-9xs);
+  gap: var(--gap-9xs);
+}
+.categoryBadge1 {
+  background-color: var(--color-gray-100);
+  display: flex;
+}
+.categoryBadge2 {
+  background-color: var(--categories-promotions-badge-1);
+  display: none;
+  color: var(--categories-promotions-badge-2);
+}
+.categoryBadge,
+.layoutSubject {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.categoryBadge {
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--label-size);
+  color: var(--primary-specialty-000-60);
+}
+.layoutSubject {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.iconPrint {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconPrintParent,
+.subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-mid);
+}
+.subject {
+  align-self: stretch;
+  background-color: var(--white);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-678xl);
+}
+.avatarIcon {
+  border-radius: var(--br-21xl);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatarIcon,
+.recipientName {
+  position: relative;
+}
+.emailViewFromEmail,
+.emailViewFromName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailViewFromName {
+  color: var(--primary-202124);
+}
+.emailViewFromEmail {
+  font-size: var(--label-size);
+}
+.unsubscribe {
+  position: relative;
+  font-size: var(--font-size-xs-2);
+  text-decoration: underline;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 500;
+  display: none;
+}
+.emailViewFromNameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.to {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 500;
+}
+.arrowIcon,
+.emailViewToTo {
+  position: relative;
+  width: 11px;
+  height: 14px;
+}
+.arrowIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emailViewTo,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.emailViewTo {
+  flex-direction: row;
+  font-size: var(--label-size);
+}
+.frameContainer {
+  flex-direction: column;
+}
+.emailViewTimeStamp,
+.layoutToFrom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.layoutToFrom {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  z-index: 0;
+}
+.emailViewTimeStamp {
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.emailRowStar,
+.moreIcon {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.moreIcon {
+  border-radius: var(--br-xl);
+  height: 32px;
+}
+.timestamp {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 26px);
+  right: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-mid);
+  z-index: 1;
+  font-size: var(--label-size);
+  color: var(--primary-specialty-000-60);
+}
+.recipientTimestamp,
+.subjectParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.recipientTimestamp {
+  background-color: var(--white);
+  padding: var(--padding-11xs) var(--padding-xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  font-size: var(--em-bold-size);
+  color: var(--primary-000-54);
+}
+.subjectParent {
+  width: 844px;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+}
+.textContent {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 100%;
+  font-weight: 800;
+}
+.textContentWrapper {
+  align-self: stretch;
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xs);
+}
+.actions {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.actionsWrapper,
+.btnCsAssociatedFilesDirect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.actionsWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  font-size: var(--font-size-lgi);
+}
+.btnCsAssociatedFilesDirect {
+  border-radius: var(--corner);
+  height: 32px;
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.btnCsAssociatedFilesDirectParent,
+.frameDiv,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btnCsAssociatedFilesDirectParent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--blue-light);
+}
+.frameDiv,
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-xs);
+  font-size: var(--em-bold-size);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}
+.frameGroup {
+  flex-direction: row;
+  font-size: var(--h2-1375em-regular-size);
+  color: var(--primary-202124);
+  font-family: var(--h2-1375em-regular);
+}
+.carrierNameParent {
+  background-color: var(--bkg-blue);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.carrierNameParent,
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.frameParent {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelectInner {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--bkg-gray);
+  flex-direction: row;
+  text-align: left;
+  color: var(--black);
+}
+.comparisonsAutoSelect,
+.comparisonsAutoSelectInner,
+.csMainCokeViewSummaryUnex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+}
+.csMainCokeViewSummaryUnex {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--blue-light);
+  font-family: var(--font-avenir);
+}

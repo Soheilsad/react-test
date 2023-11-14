@@ -1,0 +1,236 @@
+.summary {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.vectorIcon {
+  position: relative;
+  width: 14.5px;
+  height: 17px;
+}
+.export {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnDataMgmtExport {
+  border-radius: var(--corner);
+  width: 110px;
+  height: 40px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--blue-light);
+}
+.btnDataMgmtExport,
+.frameWrapper,
+.summaryParent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.summaryParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: center;
+}
+.groupIcon {
+  position: relative;
+  width: 40px;
+  height: 36px;
+}
+.name {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.carrierName {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-11xl);
+  gap: var(--gap-3xs);
+}
+.groupIcon1,
+.groupIcon2,
+.vectorIcon1 {
+  position: relative;
+  width: 28.9px;
+  height: 36px;
+}
+.groupIcon2,
+.vectorIcon1 {
+  width: 33.2px;
+}
+.groupIcon2 {
+  width: 28.8px;
+}
+.carrierNameParent {
+  align-self: stretch;
+  border-bottom: 1px solid var(--font-gray);
+  box-sizing: border-box;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupIcon3 {
+  position: relative;
+  width: 36px;
+  height: 40px;
+}
+.groupWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.carrierName1,
+.carrierNameInner,
+.insurecoParent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.insurecoParent {
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  gap: var(--gap-5xs);
+}
+.carrierName1,
+.carrierNameInner {
+  justify-content: flex-start;
+}
+.carrierName1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-5xs);
+}
+.detailsChild {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.details1 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-5xs);
+}
+.div,
+.period1 {
+  align-items: center;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+  display: flex;
+  width: 206px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.period1 {
+  flex: 1;
+  padding: var(--padding-sm) var(--padding-11xl);
+}
+.carrierNameGroup,
+.docs1,
+.period1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.docs1 {
+  flex: 1;
+  align-items: center;
+  padding: 0 var(--padding-11xl);
+  text-align: center;
+}
+.carrierNameGroup {
+  border-bottom: 1px solid var(--font-gray);
+  box-sizing: border-box;
+  height: 93px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  font-size: var(--font-size-lg);
+  color: var(--font-gray);
+}
+.frameParent,
+.menuDataMgmtOptnsParent {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--bkg-gray-dark);
+  overflow: hidden;
+  flex-direction: column;
+}
+.frameParent {
+  border-radius: var(--corner);
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--h2-1375em-regular-size);
+  font-family: var(--h2-1375em-regular);
+}
+.menuDataMgmtOptnsParent {
+  padding: var(--padding-9xs) var(--padding-41xl);
+  gap: var(--gap-base);
+}
+.comparisonsAutoSelect,
+.dataManagerCarriers,
+.menuDataMgmtOptnsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+}
+.dataManagerCarriers {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

@@ -1,0 +1,30 @@
+.vectorIcon {
+  position: relative;
+  width: 20.5px;
+  height: 20.5px;
+}
+.add {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnDataMgmtAdd {
+  border-radius: var(--corner);
+  background-color: var(--blue-light);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 109px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-avenir);
+}

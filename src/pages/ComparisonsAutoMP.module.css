@@ -1,0 +1,78 @@
+.carrierName,
+.menuCompOptnsWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+}
+.carrierName {
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.withdrawDateOptions {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.carrierNameParent {
+  align-self: stretch;
+  border-bottom: 1px solid var(--font-gray);
+  box-sizing: border-box;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--bkg-gray-dark);
+  overflow: hidden;
+  flex-direction: column;
+}
+.frameGroup {
+  border-radius: var(--corner);
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  padding: var(--padding-9xs) var(--padding-41xl);
+  gap: var(--gap-9xs);
+}
+.comparisonsAutoMp,
+.comparisonsAutoSelect,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+}
+.comparisonsAutoMp {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--h2-1375em-regular-size);
+  color: var(--black);
+  font-family: var(--h2-1375em-regular);
+}

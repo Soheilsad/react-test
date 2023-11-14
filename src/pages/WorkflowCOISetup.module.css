@@ -1,0 +1,213 @@
+.btnWkfwReturnToMainIcon {
+  position: relative;
+  width: 28.5px;
+  height: 28.5px;
+}
+.createAWorkflow {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.btnWkfwReturnToMainParent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-3xs);
+}
+.certificateOfInsurance {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnWkfwCoi,
+.btnWkfwRenewalForm {
+  border-radius: var(--corner);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 180px;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.btnWkfwCoi {
+  background-color: var(--blue-light);
+}
+.btnWkfwRenewalForm {
+  color: var(--blue-light);
+}
+.btnWkfwCoiParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-base);
+  text-align: center;
+  color: var(--white);
+}
+.certificateTemplate,
+.pleaseUploadA {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.pleaseUploadA {
+  font-size: var(--font-size-lg);
+  color: var(--font-gray);
+}
+.certificateTemplateParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.x {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnWkfwEdit,
+.coiTemplate {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.coiTemplate {
+  background-color: var(--color-gainsboro);
+  width: 210px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-3xs);
+}
+.btnWkfwEdit {
+  border-radius: var(--corner);
+  height: 32px;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+  text-align: center;
+  color: var(--blue-light);
+}
+.coiTemplateParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-base);
+  font-size: var(--body-size);
+}
+.clientData {
+  font-weight: 800;
+}
+.aiAssistedAutocompleteDat {
+  font-size: var(--font-size-lg);
+  color: var(--font-gray);
+}
+.clientDataAiAssistedContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+}
+.cokeColaParent {
+  background-color: var(--color-gainsboro);
+  width: 204px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.btnWkfwCoiGo,
+.cokeColaParent,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent1 {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.btnWkfwCoiGo {
+  border-radius: var(--corner);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 132px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--blue-light);
+}
+.frameDiv,
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  font-size: var(--body-size);
+}
+.frameParent {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-41xl);
+}
+.comparisonsAutoSelect,
+.frameParent,
+.workflowCoiSetup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+}
+.workflowCoiSetup {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}
+.clientSelector{
+  width: 100%;
+  border: none;
+}

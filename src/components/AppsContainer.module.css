@@ -1,0 +1,45 @@
+.apps {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.appsWrapper {
+  width: 445.5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+}
+.cardWorkflowsParent,
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardWorkflowsParent {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--em-bold-size);
+  color: var(--font-gray);
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: column;
+}
+.frameParent {
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

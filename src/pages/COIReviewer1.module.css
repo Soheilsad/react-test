@@ -1,0 +1,137 @@
+.censoredTemplate1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 976px;
+  height: 1333px;
+  object-fit: cover;
+}
+.theCocaCola {
+  margin: 0;
+}
+.theCocaColaContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 14px;
+  font-weight: 800;
+}
+.insurecoInsuranceRiskManageWrapper,
+.theCocaColaCompany88HarboWrapper {
+  position: absolute;
+  left: 51.6px;
+  border-radius: var(--corner);
+  background-color: var(--white);
+  width: 310.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.theCocaColaCompany88HarboWrapper {
+  top: 121.6px;
+  border: 2px solid red;
+}
+.insurecoInsuranceRiskManageWrapper {
+  top: 1097.2px;
+}
+.insurecoInsuranceRiskManageContainer {
+  top: 1202.6px;
+  left: 150.6px;
+  width: 310.9px;
+  height: 23.4px;
+  font-size: var(--font-size-5xs);
+}
+.insurecoInsuranceRiskManageContainer,
+.lucasMUrbisaiaWrapper,
+.paintingCarpentryDrywalCWrapper,
+.theCocaColaCompany88HarboContainer {
+  position: absolute;
+  border-radius: var(--corner);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.lucasMUrbisaiaWrapper {
+  top: 1227.5px;
+  left: 196.6px;
+  width: 121.3px;
+  height: 23.4px;
+  font-size: var(--font-size-5xs);
+}
+.paintingCarpentryDrywalCWrapper,
+.theCocaColaCompany88HarboContainer {
+  top: 121.6px;
+  left: 513.1px;
+  width: 310.9px;
+}
+.paintingCarpentryDrywalCWrapper {
+  top: 227px;
+  left: 51.6px;
+  width: 850.5px;
+}
+.censoredTemplate1Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 976px;
+  height: 1333px;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--black);
+}
+.accept {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnAccept1,
+.btnReview1 {
+  position: absolute;
+  top: 121.6px;
+  left: 370.9px;
+  border-radius: var(--corner);
+  background-color: var(--white);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 72.5px;
+  height: 32.2px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.btnReview1 {
+  top: 155.3px;
+}
+.groupParent {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 0;
+}
+.coiReviewer1 {
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  width: 100%;
+  height: 1431px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--label-size);
+  color: var(--blue-light);
+  font-family: var(--font-avenir);
+}

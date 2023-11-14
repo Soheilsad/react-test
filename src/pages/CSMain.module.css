@@ -1,0 +1,113 @@
+.companies {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.btnCsAddView,
+.btnCsCompanies {
+  border-radius: var(--corner);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.btnCsCompanies {
+  width: 130px;
+  height: 40px;
+  justify-content: flex-start;
+}
+.btnCsAddView {
+  align-self: stretch;
+  height: 28px;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+  color: var(--blue-light);
+}
+.btnCsCompaniesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-xs);
+}
+.nothingIsSelected,
+.selectAView {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.nothingIsSelected {
+  font-size: var(--font-size-lg);
+  color: var(--font-gray);
+}
+.frameWrapper,
+.selectAViewParent {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.selectAViewParent {
+  align-self: stretch;
+  display: flex;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xl);
+}
+.frameWrapper {
+  background-color: var(--bkg-blue);
+}
+.frameParent,
+.frameWrapper,
+.topbarCsParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.frameParent {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.topbarCsParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelectInner {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--bkg-gray);
+  flex-direction: row;
+}
+.comparisonsAutoSelect,
+.comparisonsAutoSelectInner,
+.csMain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparisonsAutoSelect {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+}
+.csMain {
+  position: relative;
+  border-radius: var(--corner);
+  background-color: var(--bkg-blue);
+  width: 100%;
+  height: 924px;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

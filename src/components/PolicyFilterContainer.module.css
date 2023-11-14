@@ -1,0 +1,8 @@
+.filterWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-9xs) 0;
+}

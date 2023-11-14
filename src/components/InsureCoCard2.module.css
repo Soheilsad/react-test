@@ -1,0 +1,132 @@
+.groupIcon {
+  position: relative;
+  width: 36px;
+  height: 40px;
+}
+.groupWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.insureco {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.carrierNameInner,
+.insurecoParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.insurecoParent {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  gap: var(--gap-5xs);
+}
+.carrierNameInner {
+  justify-content: flex-start;
+}
+.carrierName,
+.carrierNameInner,
+.details {
+  align-self: stretch;
+  overflow: hidden;
+}
+.carrierName {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-xl);
+}
+.details {
+  flex-direction: column;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.details,
+.div,
+.period {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+  height: 64px;
+}
+.period {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-xs);
+  text-align: center;
+}
+.downPaymentOf {
+  margin: 0;
+}
+.downPaymentOfContainer1 {
+  line-break: anywhere;
+}
+.downPaymentOfContainer,
+.period1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.downPaymentOfContainer {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+  height: 64px;
+}
+.period1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xs);
+}
+.paymentPlanForm {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+.carrierNameParent,
+.docs {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.docs {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  text-align: center;
+}
+.carrierNameParent {
+  border-bottom: 1px solid var(--font-gray);
+  box-sizing: border-box;
+  height: 128px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--font-gray);
+  font-family: var(--h2-1375em-regular);
+}

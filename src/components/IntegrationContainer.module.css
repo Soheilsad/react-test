@@ -1,0 +1,72 @@
+.thirdPartyIntegrations {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.thirdPartyIntegrationsWrapper {
+  width: 445.5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+}
+.groupIcon {
+  position: relative;
+  width: 35.6px;
+  height: 32px;
+}
+.acturist,
+.crm {
+  margin: 0;
+  font-weight: 900;
+}
+.crm {
+  font-size: var(--label-size);
+  font-weight: 800;
+}
+.acturistCrm {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+}
+.cardActurist {
+  border-radius: var(--corner);
+  background-color: var(--white);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  width: 160px;
+  height: 110px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.cardOutlookParent,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.cardOutlookParent {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  font-size: var(--em-bold-size);
+  color: var(--font-gray);
+}
+.frameParent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

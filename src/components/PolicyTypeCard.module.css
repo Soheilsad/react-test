@@ -1,0 +1,48 @@
+.legalLiability,
+.view {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.view {
+  font-weight: 500;
+}
+.vectorIcon {
+  position: relative;
+  width: 22.4px;
+  height: 20px;
+}
+.btnCompViewLl,
+.legalLiabilityParent {
+  overflow: hidden;
+  display: flex;
+  gap: var(--gap-5xl);
+}
+.btnCompViewLl {
+  border-radius: var(--corner);
+  border: 2px solid var(--blue-light);
+  box-sizing: border-box;
+  width: 132px;
+  height: 48px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--blue-light);
+}
+.legalLiabilityParent {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--white);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

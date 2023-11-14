@@ -1,0 +1,32 @@
+.alerts,
+.amiraSong,
+.microsoft {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.microsoft {
+  font-size: var(--font-size-xl);
+}
+.alerts,
+.amiraSong {
+  color: var(--font-gray);
+}
+.alerts {
+  color: var(--blue-light-hover);
+}
+.btnCsCompany3 {
+  width: 260px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

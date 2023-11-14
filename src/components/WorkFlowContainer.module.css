@@ -1,0 +1,37 @@
+.pastWorkflows {
+  position: relative;
+  letter-spacing: 0.25px;
+  font-weight: 800;
+}
+.pastWorkflowsWrapper {
+  width: 445.5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+}
+.cardOutlookParent,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.cardOutlookParent {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  font-size: var(--em-bold-size);
+  color: var(--font-gray);
+}
+.frameParent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-avenir);
+}

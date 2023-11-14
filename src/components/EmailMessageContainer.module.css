@@ -1,0 +1,100 @@
+.soheil {
+  margin-block-start: 0;
+  margin-block-end: 13px;
+}
+.theTransitionWill {
+  margin-bottom: 0;
+}
+.theTransitionWillBeHandled {
+  margin: 0;
+  padding-left: var(--padding-lgi);
+}
+.theCocaColaCompany {
+  margin: 0;
+}
+.textContent {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 100%;
+}
+.dividerHorizontal,
+.iconReply {
+  position: relative;
+  width: 1030px;
+  height: 1px;
+}
+.iconReply {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.reply {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  font-weight: 500;
+}
+.actionButton,
+.actionButton1,
+.actionButton2 {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--primary-000-16);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.actionButton {
+  display: flex;
+  padding: var(--padding-5xs) var(--padding-3xl) var(--padding-5xs)
+    var(--padding-base);
+  gap: var(--gap-2xs);
+}
+.actionButton1,
+.actionButton2 {
+  gap: var(--gap-5xs);
+}
+.actionButton1 {
+  display: none;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-sm);
+}
+.actionButton2 {
+  display: flex;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-xs);
+}
+.actionButtons,
+.emailArea,
+.emailAreaWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionButtons {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-size: var(--em-bold-size);
+  color: var(--primary-000-54);
+  font-family: var(--h2-1375em-regular);
+}
+.emailArea,
+.emailAreaWrapper {
+  align-self: stretch;
+  flex-direction: column;
+}
+.emailArea {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-smi) var(--padding-base);
+  gap: var(--gap-5xl);
+}
+.emailAreaWrapper {
+  height: 454px;
+  text-align: left;
+  font-size: var(--font-inherit);
+  color: var(--black);
+  font-family: var(--font-inherit);
+}
